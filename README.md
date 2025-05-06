@@ -1,1 +1,1 @@
-# Equipo-3
+# EVENTOS ESCOLARES: Equipo 3
