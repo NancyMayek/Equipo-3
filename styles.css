@@ -1,0 +1,41 @@
+.container-inline {
+    display: flex;
+    margin: 1em 2em;
+}
+h1{
+    text-align: center;
+}
+
+#eventos-titulo{
+    background-color: cyan;
+    text-align: center;
+    min-width: 20em;
+    
+}
+#texto-bienvenida{
+    background-color: azure;
+    text-align: center;
+    padding: 2em 5em 2em 5em;
+}
+#parrafo-bienvenida{
+    text-align: justify;
+}
+
+section {
+    display: inline; 
+    border: black solid 1px;
+    margin: 0 2em;
+}
+
+article {
+    text-align: justify;
+    border: black solid 1px;
+    padding: 0 1em 1em 1em;
+    border-radius: 2%;
+    margin-top: 1em;
+    background-color: lightcoral;
+}
+
+footer{
+    text-align: center;
+}
