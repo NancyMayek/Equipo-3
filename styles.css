@@ -20,8 +20,11 @@ body{
     background-color:var(--color_main_backgroud)
 }
 
+
+
 .container-inline {
     display: flex;
+    max-height: 800px;
     margin: 1em 2em;
 }
 
@@ -35,7 +38,8 @@ h1{
 #eventos-titulo{
     background-color: var(--color_articulo);
     text-align: center;
-    min-width: 20em;
+    padding: 0.5em 0 0.5em 0;
+    min-width: 22em;
     
 }
 #texto-bienvenida{
@@ -56,23 +60,39 @@ h1{
 content: "ᓬ(•̀ - •́)ᕒ";
 color: var(--color_ajolote);
 }
+
 #parrafo-bienvenida{
     text-align: justify;
     color: var(--color_texto);
 }
 
-section {
+img{
+    margin-top: 2em;
+    border: 5px solid var(--color_borde);
+}
+
+.eventos-despegable{
     display: inline; 
-    border: var(--color_borde) solid 1px;
+    min-width: min-content;
+    overflow-y: scroll;
+}
+
+.evento-division{
+    margin-top: 1em;
+}
+
+section {
+    /* border: var(--color_borde) solid 1px; */
     margin: 0 2em;
 }
 
 article {
+    max-height: inherit;
     text-align:justify;
+    margin: 0 1em;
     border: var(--color_borde) solid 1px;
-    padding: 0 1em 1em 1em;
+    padding: 1em;
     border-radius: 2%;
-    margin-top: 1em;
     background-color: var(--color_fondo_evento);
 }
 .evento{
