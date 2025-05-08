@@ -1,3 +1,20 @@
+/* Variables de colores */
+:root{
+    --color_fondo:#e5e7f5;
+    --color_fondo_evento:#ffe2fe;
+    --color_articulo:#7ca7ff;
+    --color_acento:#00c2bc;
+    --color_texto:#463046;
+    --color_borde:#000000;
+    --color_subtitulo:#00918e;
+    --color_ajolote:#bc0099;
+}
+/* Resetear estilos de navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container-inline {
     display: flex;
     margin: 1em 2em;
@@ -7,35 +24,59 @@ h1{
 }
 
 #eventos-titulo{
-    background-color: cyan;
+    background-color: var(--color_articulo);
     text-align: center;
     min-width: 20em;
     
 }
 #texto-bienvenida{
-    background-color: azure;
+    background-color:var(--color_fondo);
     text-align: center;
     padding: 2em 5em 2em 5em;
 }
+#titulo_bienvenida{
+    padding: 0px 0px 10px 0px;
+    color: var(--color_subtitulo);
+}
+
+#titulo_bienvenida::before{
+    content: "ᓬ(•̀ - •́)ᕒ";
+    color:var(--color_ajolote)
+    }
+#titulo_bienvenida::after{
+content: "ᓬ(•̀ - •́)ᕒ";
+color: var(--color_ajolote);
+}
 #parrafo-bienvenida{
     text-align: justify;
+    color: var(--color_texto);
 }
 
 section {
     display: inline; 
-    border: black solid 1px;
+    border: var(--color_borde) solid 1px;
     margin: 0 2em;
 }
 
 article {
-    text-align: justify;
-    border: black solid 1px;
+    text-align:justify;
+    border: var(--color_borde) solid 1px;
     padding: 0 1em 1em 1em;
     border-radius: 2%;
     margin-top: 1em;
-    background-color: lightcoral;
+    background-color: var(--color_fondo_evento);
+}
+.evento{
+    color: var(--color_subtitulo);
 }
 
+.actividad{
+    color: var(--color_texto);
+}
+
+.actividad:hover{
+    color: var(--color_acento);
+}
 footer{
     text-align: center;
 }
