@@ -64,6 +64,21 @@ color: var(--color_ajolote);
 #parrafo-bienvenida{
     text-align: justify;
     color: var(--color_texto);
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+#parrafo-bienvenida::first-letter{
+    color: red;
+    font-size: 2.2rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#parrafo-bienvenida::after{
+content: ">>";
+color: var(--color_ajolote);
 }
 
 img{
