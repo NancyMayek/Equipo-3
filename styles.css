@@ -124,3 +124,27 @@ article {
 footer{
     text-align: center;
 }
+
+.image-posicion{
+       width: 100%;
+       height: 200px;
+       object-fit: cover;
+       margin-top: 15px;
+       margin-bottom: 15px;
+
+}
+.border-list{
+    margin-left: 10px;
+    margin-right: 10px;
+} /* 
+  Maria Alvarez
+  09/05/2025
+  Se creo carpeta de imagenes
+  Se agrego en carpeta imagenes mama ajolote, papa ajolote, bebe ajolote
+  Se creo class .image-posicion en etiqueta img 
+  para acomodar tamaño y bordes
+  Se creo class .border-list en etiqueta ol 
+  porque el texto de evento se debia centrar
+
+
+*/
